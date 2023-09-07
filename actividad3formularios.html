@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Validate by Directed Input</h3>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Validate by Directed Input</legend>
+            <textarea name="portada" id="por" cols="60" rows="10"></textarea>
+
+            <br> <input type="radio" name="document" value="docum" id="doc" checked> 
+            <label for="doc">Validate Full Document</label> <br>
+
+            <label for="doctype"> Use Doctype</label> 
+            <select name="use doctype" id="doctype">
+                <option>(detect automatically)</option>
+                <option value="chro">Chrome</option>
+                <option value="fire">Firefox</option>
+                <option value="edge">Microsoft Edge</option>
+            </select>
+
+            <br> <input type="radio" name="document" value="fragm" id="frag" > 
+            <label for="frag">Validate HTML Fragment</label> <br>
+
+            <label> Use doctype</label> 
+
+            <input type="radio" name="doctype" value="html.4" id="html" checked>
+            <label for="html">HTML.4 01</label> 
+
+            <input type="radio" name="doctype" value="xhtml" id="xhtml"> 
+            <label for="xhtml">XHTML 1 0</label> 
+        </fieldset>
+
+        <fieldset>
+            <legend>Options</legend>
+
+            <input type="radio" name="options" value="acepto" id="opt" checked>
+            <label for="opt">List Messages Sequentially</label>
+
+            <input type="radio" name="options" value="acept" id="opti">
+            <label for="opti">Group Error Messages by Type</label> 
+
+            <br><input type="checkbox" name="showsource" value="acepto" id="show" > 
+            <label for="show">Show Source</label>
+
+            <input type="checkbox" name="cleanmarkup" value="acepto" id="mark" > 
+            <label for="mark">Clean up Markup with HTML-Tidy</label> <br>
+
+        </fieldset>
+            <input type="submit" name="check" value="Chekc">
+            
+    </form>
+</body>
+</html>
