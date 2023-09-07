@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Novell Services Login</h1>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label for="nom">Username</label><br>
+        <input type="text" name="nombreUsuario" id="nom" maxlength="10"><br>
+        <label for="contraseña">Password</label><br>
+        <input type="password" name="contra" id="contraseña"><br>
+        <label for="cit">City of <br> Employment</label><br>
+        <input type="text" name="city" id="cit"><br>
+
+        <label for="ser">Web server</label><br>
+        <select name="server" id="ser">
+            <option>-choose a server-</option>
+            <option value="cr">chrome</option>
+            <option value="st">spotify</option>
+        </select><br>
+        <label>Please specify <br> your role</label><br>
+        <input type="radio" name="rol" value="Admin" id="ad">
+        <label for="ad">Admin</label><br>
+
+        <input type="radio" name="rol" value="Engin" id="eng">
+        <label for="eng">Engineer</label><br>
+
+        <input type="radio" name="rol" value="man" id="man">
+        <label for="man">Manager</label><br>
+
+        <input type="radio" name="rol" value="Guest" id="gues">
+        <label for="gues">Guest</label><br>
+
+        <label>Single Sing-on <br> to the following</label><br>
+        <input type="checkbox" name="mail" value="acepta" id="ma">
+        <label for="ma">Mail</label><br>
+        <input type="checkbox" name="payroll" value="acepta" id="pay">
+        <label for="pay">Payroll</label><br>
+        <input type="checkbox" name="self-service" value="acepta" id="self">
+        <label for="self">Self-service</label><br>
+
+        <input type="submit" name="enviar" value="Login">
+        <input type="reset" name="borrar" value="Reset">
+    </form>
+</body>
+</html>
